@@ -1,0 +1,36 @@
+
+10 print "hello!"
+20 goto 10
+
+---
+
+10 for i=1 to 10
+20 print "i = ";
+30 print i
+40 next i
+
+---
+
+10 for i=1 to 10
+20 gosub 100
+30 next i
+40 end
+
+
+100 rem funktio: tulosta i
+110 print "i = ";
+120 print i
+130 return
+
+---
+
+10 i = 0
+20 poke 53280,i
+30 i = i + 1
+40 goto 20
+
+---
+
+
+
+
